@@ -97,6 +97,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    font-family: Calibri, sans-serif;
+    font-size: 1.3em;
+}
+
+pre {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 10px;
+    font-size: .75em;
+    color: #333333;
+}
+
+.blue { color: #0000ff; }
+
+.bold { font-weight: bold; }
+
+.italic { font-style: italic; }
+
+
 
 
 

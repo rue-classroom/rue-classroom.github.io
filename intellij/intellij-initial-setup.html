@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="Initial Setup for IntelliJ IDEA">
+    <meta name="keywords" content="Daryl Rue, Digipuff Learns Java, DigipuffLearnsJava">
+    <meta name="author" content="Daryl Rue">
+
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>Initial Setup for IntelliJ IDEA</title><!-- This is what you see on your browser tab-->
+
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="apple-touch-icon" href="../img/icon.png">
+    <!--
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+    -->
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <style type="text/css">table { margin-left: auto; margin-right: auto; max-width: 750px; }</style>
+    <style type="text/css">th, td { padding: 5px }</style>
+    <style type="text/css">.tab { padding-left: 30px }</style>
+
+    <!-- ===========================
+        ICONS:
+        =========================== -->
+    <!--
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    -->
+    <!-- ===========================
+    GOOGLE FONTS
+    =========================== -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+
+    <!-- ===========================
+        MANIFEST:
+        =========================== -->
+    <link rel="manifest" href="../site.webmanifest">
+
+    <!-- Place favicon.ico in the root directory -->
+
+
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+
+<!-- Add your site or application content here -->
+
+<table>
+    <tr>
+        <td>
+            <h1>Initial Setup of IntelliJ IDEA</h1>
+            <p>1. From the software center (type "software center" into the Windows search box), install:</p>
+            <p class="tab">IntelliJ IDEA</p>
+            <p class="tab">Java SE Development Kit 8 Update 141</p>
+            <p class="tab">Java 8 Update 141</p>
+            <p>2. Go to the website of IntelliJ and register for an account:</p>
+            <p class="tab"><a href="https://www.jetbrains.com/shop/eform/students">https://www.jetbrains.com/shop/eform/students</a></p>
+            <p class="tab">(YOU MUST USE YOUR AB-TECH EMAIL ADDRESS)</p>
+            <p>3. When you run IntelliJ IDEA for the first time, use your account info from step 2 to register it.</p>
+            <p class="tab">NOTE: If the installer doesn't create a shortcut on your desktop for IntelliJ IDEA, go to
+                C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.2.2\bin. Right click on idea64.exe, and select
+                <span class="blue bold">Send to</span>, then <span class="blue bold">Desktop (create
+                    shortcut)</span>. You can also add it to the task bar if you wish.</p>
+            <p>4. In IntelliJ IDEA, click <span class="blue bold">File</span>, <span class="blue bold">Other
+                Settings</span>, then <span class="blue bold">Default Project Structure</span>.</p>
+            <p>5. Click <span class="blue bold">SDKs</span>, then click the green <strong><span class="blue bold">+</span></strong> sign.</p>
+            <p>6. Click <span class="blue bold">JDK</span>, and then navigate to&nbsp;C:\Program Files\Java\jdk1.8.0_141 and click <span class="blue bold">OK</span>.</p>
+            <p>7. On the left hand navigation bar, click <span class="blue bold">Project</span>.</p>
+            <p>8. Select <span class="blue bold">1.8</span> from the Project SDK drop down menu, then select <span class="blue bold">8 - Lambdas, type annotations...</span> from the language level drop down. Click <span class="blue bold">OK</span>.</p>
+            <p>9. Click <span class="blue bold">File</span>, <span class="blue bold">Other Settings</span>, <span class="blue bold">Default Settings</span>.</p>
+            <p>10. Click <span class="blue bold">Editor</span>, then <span class="blue bold">File and Code Templates</span>.</p>
+            <p>11. With the <span class="blue bold">Files</span> tab selected, click <span class="blue bold">Class</span>.</p>
+            <p>12. In the top right window (above all other code), paste this:</p>
+            <pre>/*<br /> * Documentation of help received:<br /> */</pre>
+            <p>13. Replace the class declaration and everything below it with this:</p>
+            <pre>public class <span>${</span><span>NAME</span><span>}</span><span> </span>{<br /><br />    //CONSTANTS<br />    <br />    //IVARS<br />    <br />    //CONSTRUCTORS<br />    <br />    //GETTERS<br />    <br />    //SETTERS<br />    <br />    //OTHER METHODS<br /><br />} //END OF CLASS</pre>
+            <p>14.&nbsp;Click <span class="blue bold">OK</span>.</p>
+        </td>
+    </tr>
+</table>
+
+
+
+<script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+</html>
